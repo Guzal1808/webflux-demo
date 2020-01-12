@@ -55,4 +55,9 @@ public class Tweet {
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
+
+    @Override
+    public String toString() {
+        return "Text: " + this.text + "\nCreated at: " + this.createdAt;
+    }
 }
